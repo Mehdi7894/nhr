@@ -1,9 +1,9 @@
-﻿const Discord = require('discord.js');
-const A7MD = new Discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 console.log("BOT ONLINE");
  
-A7MD.on("guildMemberAdd", member => {
+client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
