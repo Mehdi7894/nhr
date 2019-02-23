@@ -9,9 +9,9 @@ A7MD.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                               [ https://discord.gg/KmR4Vr9 ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-A7MD.login('التوكين حقك');
+client.login(process.env.BOT_TOKEN);
